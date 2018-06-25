@@ -23,4 +23,10 @@ class JUnit5ExampleTest {
     void factorial10Test() {
         assertEquals((Long)3628800L, new Factorial().getFactorial(10));
     }
+
+
+    @Test
+    void factorial11Test() {
+        assertEquals((Long)3628800L, new Factorial().getFactorial(11));
+    }
 }
